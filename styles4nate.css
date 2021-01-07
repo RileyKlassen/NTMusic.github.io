@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	font-family: futura, helevetica;
+	font-size: 80px;
+	line-height: 90%;
+	background-color: none;
+	color: black;
+	width: 400px;
+	margin-bottom: 5px;
+	padding: 5px;
+	margin-top: 0px;
+}
+h1#main {
+	font-family: futura, helevetica;
+	font-size: 80px;
+	line-height: 90%;
+	background-color: white;
+	mix-blend-mode: screen; /* This makes the cutout text possible */
+	width: 400px;
+	margin-bottom: 5px;
+	padding: 5px;
+	margin-top: 0px;
+}
+h2 {
+	background-color: none;
+	color: black;
+	font-family: futura, helevetica;
+	font-size: 120px;
+	line-height: 100%;
+	margin: 10px 0px;
+}
+
+h3 {
+	font-size: 36px;
+	font-family:  futura, helevetica;
+	text-decoration: overline;
+	color: #111318;
+}
+div {
+	margin: 10px auto 10px auto;
+	width: 400px;
+	height: auto;
+	align-content: center;
+}
+
+div.main {
+	border-bottom: 3px solid white;
+	margin: 150px auto 10px auto;
+}
+
+div.covers{
+	height: auto;
+	width: 540px;
+	/*border: 1px solid black;*/
+	text-align: center;
+	margin-bottom: 100px;
+}
+p {
+	color: white;
+	font-size: 18px;
+	font-family: futura, helevetica;
+	text-align: left;
+}
+
+p.covers {
+	text-align: center;
+	color: black;
+}
+#aboutParagraph {
+	color: black;
+}
+body {
+		background-image: linear-gradient(#FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #4B58E7);
+}
+body#index {
+	background-image: url("texture-background-png-21-kamilfilms-kamil-krolak-textured-background-png-1601_1000.png"), linear-gradient(to right, #0215DE, #1F9CF0, #32F0F0);
+	background-size: cover;
+	height: 600px;
+	background-color: white;
+	background-repeat: no-repeat;
+
+}
+
+body#covers {
+	background-image: url("cartographer.png"), linear-gradient(to right, #99DBFF, #99DBFF, #FF9FB2);
+	background-size: contain;
+	height: 600px;
+	background-color: white;
+	background-repeat: repeat;
+}
+
+a {
+	background-color: none;
+	font-family:  helevetica, futura;
+	color: white;
+	margin: 5px;
+	width: 183px;
+	height: 22px;
+	display: inline-block;
+	text-align: center;
+	border: 2px solid white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightskyblue;
+	background-color: white;
+
+}
+
+a#back{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin: 20px;
+}
+
+a#back_alt {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin: 20px;
+	border: 2px solid black;
+	color: black;
+}
+a#back_alt:hover {
+	color: white;
+	background-color: black;
+
+}
+.video {
+	Margin-bottom: 50px;
+	width: 600px;
+	align-content: center;
+
+}
+i {
+	color: #120052;
+}
