@@ -77,7 +77,7 @@ body {
 body#index {
 	background-image: url("texture-background-png-21-kamilfilms-kamil-krolak-textured-background-png-1601_1000.png"), linear-gradient(to right, #0215DE, #1F9CF0, #32F0F0);
 	background-size: cover;
-	height: 600px;
+	height: 800px;
 	background-color: white;
 	background-repeat: no-repeat;
 
